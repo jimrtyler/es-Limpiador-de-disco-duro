@@ -9,6 +9,9 @@
 #Define default log location
 $LogFile = "C:\temp\diskcleaner.log"
 
+#Log File path (named randomly for bulk translation simplicity)
+$abcdefg = "C:\temp\diskcleaner.log"
+
 #==========Localization Variables==========
 #GUI Variables
 $FormTitleText = "Limpiador de disco de Jim Tyler (PowerShellEngineer.com)"
@@ -18,7 +21,7 @@ $TotalSpaceLabelText = "Espacio total (GB): "
 $JunkFoundLabelText = "Basura encontrada (GB):"
 $CleanDiskBtnText = "Limpiar disco *Elimina archivos*"
 $SpaceCleanedLabelText = "Espacio limpio (GB): "
-$LogFileLabelText = "Archivo de registro ubicado: $archivo de registro"
+$LogFileLabelText = "Archivo de registro ubicado: $abcdefg de registro"
 $CreditLabelText = "Guión de Jim Tyler - PowerShellEngineer.com"
 $LogFileLocatedText = "Archivo de registro localizado"
 $AnalyzingDriveText = "Analizando unidades..."
